@@ -13,7 +13,7 @@
 
 Route::group(['middleware' => 'web'], function() {
 
-	/* Роутинг на главную сайта */
+	/* Роутинг на главную сайта */ 
 
 	Route::get('/', [
 		'as' => 'index',
